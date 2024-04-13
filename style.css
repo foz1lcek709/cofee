@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: #f3d7b7;
+  padding: 22px 50px;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.section-one {
+  padding: 0 50px;
+  background: #f3d7b7;
+  display: flex;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.section-one-left h1 {
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  text-align: left;
+}
+.section-one-left p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 450px;
+}
+
+.btn {
+  background: #0a775f;
+  width: 193px;
+  height: 51px;
+  padding: 16px 24px 16px 24px;
+  border-radius: 100px;
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  letter-spacing: 1px;
+  text-align: center;
+  border: none;
+  transition: 1s;
+}
+
+.btn:hover {
+  transform: rotate3d(0, 1, 1, 180deg);
+}
+
+.logo-img {
+  transform: translateY(-480px);
+  z-index: 2;
+}
+.coffee-img {
+  transform: translate3d(76px, 300px, 0);
+  z-index: 1;
+}
+
+.section-two h2 {
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58.59px;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.product_detail h3 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56.25px;
+  text-align: left;
+}
+.product_detail p {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  margin-top: 30px;
+}
+.product_detail{
+  width: 35%;
+}
+
+.lavash{
+  width: 500px;
+}
